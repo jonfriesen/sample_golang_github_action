@@ -10,7 +10,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Install doctl
-      uses: digitalocean/action-doctl@v2
+      uses: digitalocean/action-doctl@go_attempt
       with:
         token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
     - name: DigitalOcean App Platform deployment
