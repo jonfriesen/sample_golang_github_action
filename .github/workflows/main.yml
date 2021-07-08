@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - action
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
