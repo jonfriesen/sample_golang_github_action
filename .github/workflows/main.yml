@@ -12,5 +12,5 @@ jobs:
     - name: DigitalOcean App Platform deployment
       uses: ParamPatel207/app_action@go_attempt
       with:
-        app_name: sample_golang
+        app_name: sample-golang
         token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
