@@ -17,3 +17,4 @@ jobs:
       uses: ParamPatel207/app_action@go_attempt
       with:
         app_name: sample_golang
+        token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
