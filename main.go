@@ -27,7 +27,6 @@ const startMessage = `[48;2;0;0;0m [48;2;0;0;0m [48;2;0;0;0m [48;2;0;0;0m [
 `
 
 func main() {
-	//example
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		cacheTTLString := os.Getenv("APP_CACHE_TTL")
 		requestID := uuid.Must(uuid.NewV4())
