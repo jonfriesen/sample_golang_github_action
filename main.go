@@ -52,6 +52,7 @@ func main() {
 	fmt.Printf("==> Server listening at %s 🚀\n", bindAddr)
 
 	fmt.Println("Hellloooooooo")
+	fmt.Println("Hellloooooooo again")
 	fmt.Println()
 	
 	err := http.ListenAndServe(bindAddr, nil)
